@@ -1,1 +1,1 @@
-[link](link.(com)
+Check it out here: ( [link](link.com) )
