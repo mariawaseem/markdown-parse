@@ -1,2 +1,2 @@
 
-[new link]()
+[new link](link.(com))
