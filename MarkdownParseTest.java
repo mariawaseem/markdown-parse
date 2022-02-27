@@ -57,6 +57,15 @@ public class MarkdownParseTest {
         assertEquals(new ArrayList<>(List.of()), links);
     }
 
+    @Test
+    public void getLinksSpaceinURL() throws IOException {
+        Path fileName = Path.of("test-space-in-url.md");
+	    String contents = Files.readString(fileName);
+        ArrayList<String> links = MarkdownParse.getLinks(contents);
+        System.out.println(links);
+        assertEquals(new ArrayList<>(List.of()), links);
+    }
+
     // Lab Report 4 Tests
 
     @Test
